@@ -1,0 +1,13 @@
+## Find out
+
+1. <code>iTransformer</code> : 
+- Imagine a standard Transformer as a blender that throws all the ingredients (entire time series sequence) together. 
+iTransformer, on the other hand, treats each ingredient (variable) individually, then strategically combines them based on their importance for the final dish (forecast). 
+This tailored approach leads to a better understanding of the recipe (time series dynamics) and potentially a more accurate forecast (dish).
+
+- <b>Variable-Length Attention</b>: In contrary attention mechanism in Transformers is typically of fixed-length, meaning it focuses on a limited window around each time step. 
+This might not be ideal for capturing long-range dependencies in time series data, which can be crucial for accurate forecasting. 
+
+- [Paper](https://arxiv.org/abs/2310.06625) 
+
+2. TimesNet : 
