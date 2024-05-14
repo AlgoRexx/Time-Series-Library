@@ -16,6 +16,14 @@ We provide a neat code base to evaluate advanced deep time series models or deve
 ## Leaderboard for Time Series Analysis
 
 Till March 2024, the top three models for five different tasks are:
+<code> 
+- <b>Long-term Forecasting (Look-Back-96)</b>: This column focuses on how well the model predicts future values based on 96 historical data points (Look-Back refers to the number of past observations used for prediction).
+- <b>Long-term Forecasting (Look-Back-Searching)</b>: Similar to the previous column, but the model might use a search-based approach to identify the most relevant historical data for forecasting, potentially beyond a fixed look-back window.
+- <b>Short-term Forecasting</b>: This indicates how well the model predicts the immediate future based on recent historical data.
+- <b>Imputation</b>: This refers to the model's ability to fill in missing data points within the time series.
+- <b>Classification</b>: This indicates if the model can be used to classify data points into different categories based on historical patterns.
+- <b>Anomaly Detection</b>: This shows if the model can identify unusual events or deviations from the typical patterns in the time series data.
+</code>
 
 | Model<br>Ranking | Long-term<br>Forecasting<br>Look-Back-96              | Long-term<br/>Forecasting<br/>Look-Back-Searching     | Short-term<br>Forecasting                                    | Imputation                                                   | Classification                                               | Anomaly<br>Detection                               |
 | ---------------- | ----------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------------------------- |
